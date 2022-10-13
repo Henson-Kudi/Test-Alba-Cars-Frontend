@@ -8,6 +8,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
         > git clone https://github.com/Henson-Kudi/test-alba-cars-frontend.git
 
+-   Change to project direct and install dependencies
+
+          > cd test-alba-cars-frontend
+          > yarn
+          OR
+          > npm install
+
 ## Available Scripts
 
 In the project directory, you can run:
