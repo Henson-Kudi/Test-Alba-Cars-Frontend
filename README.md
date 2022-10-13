@@ -4,7 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Clone and install dependencies
 
--   Open your terminal and navigate to your projects directory, then run
+-   Open your terminal and navigate to your projects directory, then run;
+
         > git clone https://github.com/Henson-Kudi/test-alba-cars-frontend.git
 
 ## Available Scripts
