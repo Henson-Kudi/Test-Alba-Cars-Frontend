@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Clone and install dependencies
+- Open your terminal and navigate to your projects directory, then run
+    git clone hhtps
+
 ## Available Scripts
 
 In the project directory, you can run:
