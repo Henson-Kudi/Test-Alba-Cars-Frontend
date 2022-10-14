@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import LeftNavigation from "./components/LeftNavigation";
+import Header from "./components/Header";
+import Dashboard from "./pages/Dashboard";
+import { useRef } from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const leftNavRef = useRef(null);
+
+    const openSideBar = () => {
+        leftNavRef.current?.openNav();
+    };
+
+    return (
+        <div className="bg-black text-white pr-0 smmd:pr-2 lg:pr-18 overflow-hidden">
+            <Header openSideBar={openSideBar} />
+
+            <div className="flex justify-start md:gap-2 smmd:gap-4 pr-4 md:pr-0 w-full">
+                <LeftNavigation ref={leftNavRef} />
+                <Dashboard />
+            </div>
+        </div>
+    );
 }
 
 export default App;

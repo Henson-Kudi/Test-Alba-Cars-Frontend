@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+.show-nav.side-nav {
+    visibility: visible;
+    left: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-shadow1,
+.image-shadow2,
+.image-shadow3,
+.image-shadow4 {
+    box-shadow: 7px 1px 0.1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-shadow1 {
+    box-shadow: 7px 1px 0.1px #666f36;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-shadow2 {
+    box-shadow: 7px 1px 0.1px #af9ce2;
 }
 
-.App-link {
-  color: #61dafb;
+.image-shadow3 {
+    box-shadow: 7px 1px 0.1px #d42358;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-shadow4 {
+    box-shadow: 7px 1px 0.1px #264178;
+}
+
+.modal-cont {
+    transition: all 300ms ease;
+    visibility: hidden;
+    z-index: -10000;
+}
+
+.modal-cont.show-modal {
+    visibility: visible;
+    z-index: 100000;
+}
+
+@media screen and (max-width: 500px) {
+    .side-nav {
+        backdrop-filter: blur(30px);
+    }
 }

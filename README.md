@@ -2,18 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Clone and install dependencies
+## Clone project, install dependencies and start development server
 
 -   Open your terminal and navigate to your projects directory, then run;
 
         > git clone https://github.com/Henson-Kudi/test-alba-cars-frontend.git
 
--   Change to project direct and install dependencies
+-   Change to project directory and install dependencies
 
           > cd test-alba-cars-frontend
-          > yarn
-          OR
-          > npm install
+          > yarn install
+
+-   Start development server
+
+        > yarn start
 
 ## Available Scripts
 
