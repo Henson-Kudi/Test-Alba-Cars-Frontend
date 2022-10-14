@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/test-alba-cars-frontend/static/css/main.95fa26cf.css",
+    "main.js": "/test-alba-cars-frontend/static/js/main.2031446e.js",
+    "static/media/interior.svg": "/test-alba-cars-frontend/static/media/interior.24d47f8870c80c9c833b57ff2fcbaa58.svg",
+    "static/media/accessories.svg": "/test-alba-cars-frontend/static/media/accessories.8d36242c8ba43b600e526688b25f1adf.svg",
+    "static/media/Henson-Web-Dev.pdf": "/test-alba-cars-frontend/static/media/Henson-Web-Dev.b57307df79cde834a836.pdf",
+    "static/media/logo2.svg": "/test-alba-cars-frontend/static/media/logo2.d630fe7f78460c8e683c67af27028782.svg",
+    "static/media/mechanical.svg": "/test-alba-cars-frontend/static/media/mechanical.021ab4194382abe4770b6b58c047c60e.svg",
+    "static/media/bodywork.svg": "/test-alba-cars-frontend/static/media/bodywork.ef3a11f635ac4cbee9b4d83aae23320e.svg",
+    "index.html": "/test-alba-cars-frontend/index.html",
+    "main.95fa26cf.css.map": "/test-alba-cars-frontend/static/css/main.95fa26cf.css.map",
+    "main.2031446e.js.map": "/test-alba-cars-frontend/static/js/main.2031446e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95fa26cf.css",
+    "static/js/main.2031446e.js"
+  ]
+}
