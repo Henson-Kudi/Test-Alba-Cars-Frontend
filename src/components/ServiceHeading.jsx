@@ -10,7 +10,7 @@ export default function ServiceHeading({ image, name, imageClass, contClass }) {
             >
                 <img
                     src={image}
-                    alt="Mechanical image"
+                    alt="Mechanical"
                     className="w-full h-full object-cover rounded-lg bg-transparent text-green"
                 />
             </div>

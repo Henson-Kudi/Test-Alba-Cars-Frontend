@@ -46,7 +46,7 @@ export default function Header({ openSideBar }) {
                 <div className="logo-container w-18 h-18 overflow-hidden">
                     <img
                         src={logo2}
-                        alt="Company logo"
+                        alt="Company"
                         className="logo w-full h-full object-cover rounded-6 border border-pink"
                     />
                 </div>

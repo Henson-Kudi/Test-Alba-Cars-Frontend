@@ -384,7 +384,7 @@ export default function Dashboard() {
                 <div className="w-full h-full">
                     <img
                         src={logo}
-                        alt="sample display image"
+                        alt="sample display"
                         className="w-full h-full object-contain"
                     />
                 </div>
